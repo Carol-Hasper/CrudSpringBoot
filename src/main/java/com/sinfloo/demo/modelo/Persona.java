@@ -19,7 +19,6 @@ public class Persona {
     public Persona() {
     }
     
-    //Cometario prueba
 	public Persona(int id, String name, String apellido, String telefono, String dni) {
 		super();
 		this.id = id;

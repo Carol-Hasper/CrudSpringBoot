@@ -4,7 +4,7 @@ import java.util.Optional;
 
 import com.sinfloo.demo.modelo.Persona;
 import java.util.List;
-//Otro comentario
+
 public interface IPersonaService {
 public List<Persona>listar();
 public Optional <Persona>listarId(int id);
