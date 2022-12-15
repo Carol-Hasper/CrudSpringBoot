@@ -26,7 +26,7 @@ public String listar(Model model) {
 }
 	@GetMapping("/new")
 	public String agregar(Model model) {
-		model.addAttribute("persona", new Persona());
+		model.addAttribute("personas", new Persona());
 		return "form";
 	}
 	@PostMapping("/save")
