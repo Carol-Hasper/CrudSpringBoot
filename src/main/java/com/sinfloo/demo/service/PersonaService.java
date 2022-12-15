@@ -31,7 +31,7 @@ public class PersonaService implements IPersonaService{
 	 if(!persona.equals(null)) {
 		 res=1;
 	 }
-		return 0;
+		return res;
 	}
 
 	@Override
